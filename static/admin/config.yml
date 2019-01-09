@@ -19,13 +19,12 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
-  - name: 'standard'
+  - name: 'standards'
     label: "Georgia Educational Standards"
     folder: "src/pages/gse"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: 'templateKey', widget: 'hidden', default: 'standard'}
       - {label: "Title", name: 'title', widget: 'string'}
       - {label: "Code", name: 'code', widget: 'string'}
       - {label: "Articles", name: 'articles', widget: 'list', field: {label: 'Article', name: 'article', widget: 'string'}}
@@ -36,11 +35,18 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "library-media"}
       - {label: "Title", name: 'title', widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: 'Tags', name: "tags", widget: "list"}
+      - name: 'standards'
+        label: 'Educational Standards Met'
+        widget: 'relation'
+        collection: 'standards'
+        searchFields: ['title', 'code', 'articles']
+        valueField: 'code'
+        displayFields: ["title", "code"]
+
 
   - name: 'events'
     label: 'Museum Events'
@@ -51,12 +57,23 @@ collections:
       - name: "title"
         label: "Event Title"
         widget: 'string'
-      - name: 'startDate'
-        label: "Event Start Date"
-        widget: 'date'
-      - name: 'startTime'
-        label: 'Event Start Time'
-        widget: 'time'
+      - name: 'type'
+        label: "Event Type"
+        widget: "select"
+        options:
+          - label: "Family Day"
+            value: "family-day"
+          - label: "Forum"
+            value: "forum"
+      - name: 'startDateTime'
+        label: 'Event Start'
+        widget: 'datetime'
+      - name: 'endDateTime'
+        label: 'Event End'
+        widget: 'datetime'
+      - name: 'price'
+        label: "Price"
+        widget: "string"
       - name: 'body'
         label: 'Body'
         widget: 'markdown'
