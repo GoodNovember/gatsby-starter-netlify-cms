@@ -1,8 +1,8 @@
 ---
 templateKey: standard
 title: >-
-  The student will identify the purpose of national holidays and describe
-  thepeople or events celebrated.
+  The student will identify the purpose of national holidays and describe the
+  people or events celebrated.
 code: SSKH1
 articles:
   - Labor Day
