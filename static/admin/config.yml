@@ -19,6 +19,51 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: 'standard'
+    label: "Georgia Educational Standards"
+    folder: "src/pages/gse"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: 'templateKey', widget: 'hidden', default: 'standard'}
+      - {label: "Title", name: 'title', widget: 'string'}
+      - {label: "Code", name: 'code', widget: 'string'}
+      - {label: "Articles", name: 'articles', widget: 'list', field: {label: 'Article', name: 'article', widget: 'string'}}
+
+  - name: 'library-items'
+    label: 'Library Items'
+    folder: "src/pages/library"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "library-media"}
+      - {label: "Title", name: 'title', widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: 'Tags', name: "tags", widget: "list"}
+
+  - name: 'events'
+    label: 'Museum Events'
+    folder: "src/pages/events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}-{{slug}}"
+    fields:
+      - name: "title"
+        label: "Event Title"
+        widget: 'string'
+      - name: 'startDate'
+        label: "Event Start Date"
+        widget: 'date'
+      - name: 'startTime'
+        label: 'Event Start Time'
+        widget: 'time'
+      - name: 'body'
+        label: 'Body'
+        widget: 'markdown'
+      - name: 'tags'
+        label: 'Tags'
+        widget: 'list'
+
   - name: "pages"
     label: "Pages"
     files:
