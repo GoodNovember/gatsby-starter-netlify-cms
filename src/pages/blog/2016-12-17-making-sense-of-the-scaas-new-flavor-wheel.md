@@ -15,18 +15,6 @@ The SCAA updated the wheel to reflect the finer nuances needed to describe flavo
 
 While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
 
-# Tester Start
-
-<tester-elm id="clockwork" title="pleasure" description="Klenex without the tweezers"></tester-elm>
-
-# Tester End
-
-## Second Test:
-
-<tester-elm-two id="IDENT" marked-body="*%20maced%0A*%20taste%0A*%20faced%0A*%20chased%0A*%20chaste%0A*%20cased%0A*%20paste" description="Sleep%20and%20Seattle" title="Dogless,%20Please"></tester-elm-two>
-
-## Second Test End
-
 ## What the updates mean to you
 
 The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
@@ -41,5 +29,7 @@ The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-pr
 For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
 
 Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+
+<tester-elm-two id="Burgers%20And%20Fries" description="Fod" title="Voxrf" marked-body="#%20Sylopsism%20%22wee%22%20don't%0A%0ANo.%20I%20mean%20no.%20I%20mean.%20no."></tester-elm-two>
 
 The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
