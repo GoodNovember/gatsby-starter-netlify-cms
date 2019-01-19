@@ -25,7 +25,7 @@ The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conica
 3. Never skip preheating the glass.
 4. Timing is key, don’t forget the clock.
 
-<tester-elm id="Chemex-Tester" title="Weirdo Chemex" description="Perhaps we should try to slow some things down, take a rest. be good to ourselves and find some common ground."></tester-elm>
+<tester-elm id="Chemex-Tester" title="Weirdo%20Chemex" description="Perhaps%20we%20should%20try%20to%20slow%20some%20things%20down,%20take%20a%20rest.%20be%20good%20to%20ourselves%20and%20find%20some%20common%20ground.%0A%0AI%20mean,%20what%20could%20it%20hurt?%0A%0AReally,%20who%20thinks%20of%20all%20this%20stuff?%20Right?%20Ugh."></tester-elm>
 
 The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
 
